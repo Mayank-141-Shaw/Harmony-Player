@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_screen_loading"
+    android:backgroundTint="@color/blurForeground"
+    android:backgroundTintMode="add"
+    android:padding="30dp"
+    tools:context=".HomeLoaderScreenActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBarCircle"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/progressBarStyle"
+        android:layout_above="@id/authorLine"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:indeterminate="true"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/authorLine"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/damion"
+            android:text="Made with"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:src="@drawable/pikachu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/damion"
+            android:text=" by Warfighter77806"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

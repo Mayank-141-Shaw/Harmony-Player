@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Harmony Player</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_list_music">My Music</string>
+    <string name="tab_fav_music">Favourites</string>
+    <string name="tab_rec_song">Recordings</string>
+    <string name="title_activity_tab_main">TabActivityMainActivity</string>
+</resources>
